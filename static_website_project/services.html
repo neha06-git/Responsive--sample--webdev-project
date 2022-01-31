@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Website</title>
+<link rel="stylesheet" type="text/css" href="css/design.css"/>
+  
+  
+  <!--using FontAwesome-->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+	<section>
+	<!--navigation------------------------->
+	<nav>
+	<!--logo-->
+	<a class="logo" href="#">Techniclaza Creations</a>
+	<!--menu-->
+	<ul>
+	<li><a class="active" href="Portfolio.html">Home</a></li>
+	<li><a href="about-us.html">About</a></li>
+	<li><a href="services.html">Services</a></li>
+	<li><a href="#medium-widget">Blog</a></li>
+	<li><a href="contact-us.html">Contact Me</a></li>
+	</ul>
+	<!--bars--------------->
+	<div class="toggle"></div>
+	
+	</nav>
+
+<h1 class="service-heading"> Our Services</h1>
+<div class="services ">
+  <!--text-->
+		<div class="services-text ">
+	    <p>Services</p>
+	    <p>Qualites Required</p>
+	    <p>if you want make a software for your bussniess contact me.I make as soon as possibale.You really like my work, if you don't I change this until you like if you want make a software for your bussniess conatact me.I make as soon as possible.</p>
+		</div>
+		<div class="box-container">
+		<!--1------------->
+			<div class="box-1">
+			<span>1</span>
+			<p class="heading">Web Design</p>
+			<p class="details">if you want make a software for your bussniess conatact me.I make as soon as possibale.You really like my work, if you don't I change this until you like if you want.</p>
+			<button class="btn btn1">Read More</button>
+			</div>
+	   <!--2------------->
+			<div class="box-2">
+			<span>2</span>
+			<p class="heading">Web Devoloment</p>
+			<p class="details">if you want make a software for your bussniess conatact me.I make as soon as possibale.You really like my work, if you don't I change this until you like if you want.</p>
+			<button class="btn btn2">Read More</button>
+			</div>
+		<!--3------------->
+			<div class="box-3">
+			<span>3</span>
+			<p class="heading">Security SEO</p>
+			<p class="details">if you want make a software for your bussniess conatact me.I make as soon as possibale.You really like my work, if you don&#8217;t i change this until you like if you want.</p>
+			<button class="btn btn3">Read More</button>
+			</div>
+		</div>
+	</div>
+</section>
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@nehaguta2000","postsPerLine":2,"limit":4,"picture":"small","fields":["description","author","claps","likes","publishAt"],"ratio":"original"}})</script>
+
+	<script type="text/javascript" src="js/JQuery.js"></script>
+    <script type="text/javascript">
+  	$(document).ready(function(){
+  		$('.toggle').click(function(){
+  			$('.toggle').toggleClass('active')
+  			$('nav').toggleClass('active')
+  		})
+  	})
+  </script>
+ </body>
+ </html>
+  
